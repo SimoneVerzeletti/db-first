@@ -1,13 +1,13 @@
 AUTOMOBILI:
 
-	ID				|	int			|	PK, AUTO_INCREMENT	|
+	ID			|	int		|	PK, AUTO_INCREMENT  |
 	marca			|	VARCHAR(20)	|	NOT_NULL            |
 	modello			|	VARCHAR(20)	|	NOT_NULL            |
 	categoria		|	VARCHAR(20)	|	NULL                |
-	alimentazione	|	VARCHAR(30)	|	NOT_NULL            |
+	alimentazione		|	VARCHAR(30)	|	NOT_NULL            |
 	potenza			|	MEDIUMINT	|	NOT_NULL            |
 	anno			|	SMALL		|	NOT_NULL            |
 	n.porte			|	TINYINT		|	NULL                |
 	condizione		|	VARCHAR(10)	|	NOT_NULL            |
-	km				|	DOUBLE(9, 3)|	NOT_NULL            |
-	prezzo			|	DOUBLE(9, 3)|	NOT_NULL            |
+	km			|	DOUBLE(9, 3)	|	NOT_NULL            |
+	prezzo			|	DOUBLE(9, 3)	|	NOT_NULL            |
